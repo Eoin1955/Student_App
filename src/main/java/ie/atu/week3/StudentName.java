@@ -52,4 +52,14 @@ public class StudentName {
     public void setCourse(String course) {
         this.course = course;
     }
+
+    @Override
+    public String toString() {
+        return "StudentName: " +
+                "name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                ", course='" + course + '\'' +
+                '}';
+    }
 }
+
