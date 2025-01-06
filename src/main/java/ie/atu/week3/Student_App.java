@@ -30,7 +30,7 @@ public class Student_App {
 
         //student 2
         StudentName n2 = new StudentName("eoin");
-        n2.setName(email2);
+        n2.setEmail(email2);
         n2.setCourse(course2);
 
         //student 3
